@@ -1,6 +1,6 @@
 ---
 title: "Mein neues Portfolio: Setup mit Hugo und GitHub Pages"
-date: 2026-05-03
+date: 2026-05-02
 draft: false
 tags: ["hugo", "github-pages", "obsidian", "ci-cd"]
 ---

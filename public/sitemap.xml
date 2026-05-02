@@ -2,29 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:60878/tags/allgemein/</loc>
+    <loc>https://schmusch.github.io/tags/allgemein/</loc>
     <lastmod>2026-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:60878/tags/hugo/</loc>
+    <loc>https://schmusch.github.io/tags/hugo/</loc>
     <lastmod>2026-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:60878/</loc>
+    <loc>https://schmusch.github.io/</loc>
     <lastmod>2026-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:60878/posts/</loc>
+    <loc>https://schmusch.github.io/posts/</loc>
     <lastmod>2026-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:60878/tags/</loc>
+    <loc>https://schmusch.github.io/tags/</loc>
     <lastmod>2026-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:60878/about/</loc>
+    <loc>https://schmusch.github.io/about/</loc>
     <lastmod>2026-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:60878/posts/willkommen/</loc>
+    <loc>https://schmusch.github.io/posts/willkommen/</loc>
     <lastmod>2026-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:60878/authors/</loc>
+    <loc>https://schmusch.github.io/authors/</loc>
   </url><url>
-    <loc>http://localhost:60878/categories/</loc>
+    <loc>https://schmusch.github.io/categories/</loc>
+  </url><url>
+    <loc>https://schmusch.github.io/projects/</loc>
   </url>
 </urlset>

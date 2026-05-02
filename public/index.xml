@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Philipp Schmusch</title>
-    <link>http://localhost:60878/</link>
+    <link>https://schmusch.github.io/</link>
     <description>Recent content on Philipp Schmusch</description>
     <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:60878/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://schmusch.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Über mich</title>
-      <link>http://localhost:60878/about/</link>
+      <link>https://schmusch.github.io/about/</link>
       <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60878/about/</guid>
+      <guid>https://schmusch.github.io/about/</guid>
       <description>&lt;h1 id=&#34;über-mich&#34;&gt;&#xD;&#xA;  Über mich&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%c3%bcber-mich&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link zu Überschrift&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link zu Überschrift&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;Hallo, ich bin &lt;strong&gt;Philipp Schmusch&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Ich bin spezialisiert auf IT Operations, Digitalisierung und Projektmanagement. Diese Seite dient als mein persönliches Portfolio und Blog, um meine Projekte und Gedanken zu teilen.&lt;/p&gt;&#xA;&lt;h2 id=&#34;kontakt&#34;&gt;&#xD;&#xA;  Kontakt&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#kontakt&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link zu Überschrift&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link zu Überschrift&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/schmusch&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/philippschmusch/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Willkommen auf meinem neuen Blog</title>
-      <link>http://localhost:60878/posts/willkommen/</link>
+      <link>https://schmusch.github.io/posts/willkommen/</link>
       <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60878/posts/willkommen/</guid>
+      <guid>https://schmusch.github.io/posts/willkommen/</guid>
       <description>&lt;h1 id=&#34;willkommen&#34;&gt;&#xD;&#xA;  Willkommen!&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#willkommen&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link zu Überschrift&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link zu Überschrift&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;Dies ist der erste Beitrag auf meinem neuen Hugo-Blog. Ich habe diese Seite erstellt, um meine Reise im Bereich IT und Digitalisierung zu dokumentieren.&lt;/p&gt;&#xA;&lt;p&gt;Stay tuned für mehr!&lt;/p&gt;</description>
     </item>
   </channel>

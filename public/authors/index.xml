@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Philipp Schmusch</title>
-    <link>http://localhost:60878/authors/</link>
+    <link>https://schmusch.github.io/authors/</link>
     <description>Recent content in Authors on Philipp Schmusch</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <atom:link href="http://localhost:60878/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://schmusch.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
