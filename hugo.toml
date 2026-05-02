@@ -41,6 +41,11 @@ name = "Blog"
 weight = 2
 url = "posts/"
 
+[[languages.de.menu.main]]
+name = "Projekte"
+weight = 3
+url = "projects/"
+
 [taxonomies]
 category = "categories"
 tag = "tags"
