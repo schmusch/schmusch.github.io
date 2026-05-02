@@ -32,7 +32,20 @@ Dank der Integration in Obsidian ist das Bloggen und Pflegen der Seite sehr reib
 Hier ist eine vereinfachte Darstellung meines Veröffentlichungs-Workflows:
 
 {{<mermaid>}}
-%%{init: {'theme': 'neutral'}}%%
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'primaryColor': '#424242',
+    'primaryTextColor': '#dadada',
+    'primaryBorderColor': '#4f4f4f',
+    'lineColor': '#dadada',
+    'secondaryColor': '#212121',
+    'tertiaryColor': '#212121',
+    'nodeBorder': '#dadada',
+    'mainBkg': '#424242',
+    'edgeLabelBackground': '#212121'
+  }
+}}%%
 graph TD
     A[Obsidian Vault] -->|git push| B(GitHub Repository)
     B --> C{GitHub Actions}
