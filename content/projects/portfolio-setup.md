@@ -32,14 +32,12 @@ Dank der Integration in Obsidian ist das Bloggen und Pflegen der Seite sehr reib
 Hier ist eine vereinfachte Darstellung meines Veröffentlichungs-Workflows:
 
 {{<mermaid>}}
-graph LR
+%%{init: {'theme': 'neutral'}}%%
+graph TD
     A[Obsidian Vault] -->|git push| B(GitHub Repository)
     B --> C{GitHub Actions}
-    C -->|Build: hugo --minify| D[Public HTML]
+    C -->|Build: hugo| D[Public HTML]
     D --> E((GitHub Pages))
-    
-    style A fill:#7a52cc,stroke:#333,stroke-width:2px,color:#fff
-    style E fill:#2ea44f,stroke:#333,stroke-width:2px,color:#fff
 {{</mermaid>}}
 
 ## Warum dieser Setup?
