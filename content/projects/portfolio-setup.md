@@ -7,6 +7,8 @@ tags: ["hugo", "github-pages", "obsidian", "ci-cd"]
 
 # Eine neue Portfolioseite
 
+![Hugo Portfolio Setup Architektur](/images/portfolio-setup.png)
+
 Um meine Projekte besser präsentieren zu können, habe ich mich entschieden, eine statische Webseite aufzubauen. Mein Ziel war ein schnelles, sicheres und leicht zu wartendes Setup, das sich nahtlos in meinen bestehenden Workflow integriert.
 
 ## Der Tech-Stack
