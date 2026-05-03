@@ -4,6 +4,7 @@ date: 2026-05-03
 ---
 
 # Philipp Schmusch
+![IT Vision](/images/hero-it-vision.png)
 IT-Leitung | KI-Architektur | Digitale Transformation
 
 Ich arbeite seit über 20 Jahren in der IT. Mein Weg führte mich von der klassischen Systemadministration über die Gründung eines eigenen IT-Dienstleisters bis hin zur heutigen Leitung internationaler IT-Teams.
@@ -11,6 +12,8 @@ Ich arbeite seit über 20 Jahren in der IT. Mein Weg führte mich von der klassi
 Aktuell bin ich als Team- & Projectlead Tech Service DACH bei der Satisloh GmbH (EssilorLuxottica Gruppe) tätig. Dort verantworte ich den IT-Betrieb und die Integration lokaler Strukturen in globale Konzernstandards.
 
 ## Der strategische Vorteil durch KI
+
+![AI Strategy](/images/ai-strategy.png)
 
 KI ist für mich kein Trend, sondern ein entscheidender Wettbewerbsvorteil. Wer KI-gestützte Automatisierung konsequent ignoriert, verliert langfristig den Anschluss – sowohl als Unternehmen als auch als IT-Verantwortlicher. Mein Schwerpunkt liegt auf der praktischen Umsetzung von Agenten-Workflows, die echte Effizienzgewinne bringen:
 
