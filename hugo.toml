@@ -13,8 +13,8 @@ info = ["IT Operations", "Digitalisierung", "Project Management"]
 avatarURL = "images/avatar.jpg"
 dateFormat = "2. Januar 2006"
 since = 2026
-colorScheme = "auto"
-hideColorSchemeToggle = false
+colorScheme = "dark"
+hideColorSchemeToggle = true
 
 [[params.social]]
 name = "Github"
@@ -40,11 +40,6 @@ url = "about/"
 name = "Blog"
 weight = 2
 url = "posts/"
-
-[[languages.de.menu.main]]
-name = "Projekte"
-weight = 3
-url = "projects/"
 
 [taxonomies]
 category = "categories"
