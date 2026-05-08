@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Mein neues Portfolio: Setup mit Hugo und GitHub Pages · Schmusch
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Philipp Schmusch">
+<meta name="description" content="
+  Eine neue Portfolioseite
+  
+    
+    Link zu Überschrift
+  
+
+
+Um meine Projekte besser präsentieren zu können, habe ich mich entschieden, eine statische Webseite aufzubauen. Mein Ziel war ein schnelles, sicheres und leicht zu wartendes Setup, das sich nahtlos in meinen bestehenden Workflow integriert.
+
+  Der Tech-Stack
+  
+    
+    Link zu Überschrift
+  
+
+Die Wahl fiel auf Hugo, einen extrem schnellen Static Site Generator, geschrieben in Go. Als Theme nutze ich das minimalistische Coder Theme.">
+<meta name="keywords" content="portfolio,blog,hugo,it-operations,digitalisierung">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Mein neues Portfolio: Setup mit Hugo und GitHub Pages">
+  <meta name="twitter:description" content="Eine neue PortfolioseiteLink zu ÜberschriftUm meine Projekte besser präsentieren zu können, habe ich mich entschieden, eine statische Webseite aufzubauen. Mein Ziel war ein schnelles, sicheres und leicht zu wartendes Setup, das sich nahtlos in meinen bestehenden Workflow integriert.
+Der Tech-StackLink zu ÜberschriftDie Wahl fiel auf Hugo, einen extrem schnellen Static Site Generator, geschrieben in Go. Als Theme nutze ich das minimalistische Coder Theme.">
+
+<meta property="og:url" content="http://localhost:1313/posts/portfolio-setup/">
+  <meta property="og:site_name" content="Schmusch">
+  <meta property="og:title" content="Mein neues Portfolio: Setup mit Hugo und GitHub Pages">
+  <meta property="og:description" content="Eine neue PortfolioseiteLink zu ÜberschriftUm meine Projekte besser präsentieren zu können, habe ich mich entschieden, eine statische Webseite aufzubauen. Mein Ziel war ein schnelles, sicheres und leicht zu wartendes Setup, das sich nahtlos in meinen bestehenden Workflow integriert.
+Der Tech-StackLink zu ÜberschriftDie Wahl fiel auf Hugo, einen extrem schnellen Static Site Generator, geschrieben in Go. Als Theme nutze ich das minimalistische Coder Theme.">
+  <meta property="og:locale" content="de">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-05-02T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-05-02T00:00:00+00:00">
+    <meta property="article:tag" content="Hugo">
+    <meta property="article:tag" content="Github-Pages">
+    <meta property="article:tag" content="Obsidian">
+    <meta property="article:tag" content="Ci-Cd">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/portfolio-setup/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-dark">
+  
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Schmusch
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">Über mich</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/portfolio-setup/">
+              Mein neues Portfolio: Setup mit Hugo und GitHub Pages
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2026-05-02T00:00:00Z">
+                2. Januar 2026
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              2 Minuten Lesezeit
+            </span>
+          </div>
+          
+          
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/hugo/">Hugo</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/github-pages/">Github-Pages</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/obsidian/">Obsidian</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/ci-cd/">Ci-Cd</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      
+
+
+      <div class="post-content">
+        
+        <h1 id="eine-neue-portfolioseite">
+  Eine neue Portfolioseite
+  <a class="heading-link" href="#eine-neue-portfolioseite">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link zu Überschrift"></i>
+    <span class="sr-only">Link zu Überschrift</span>
+  </a>
+</h1>
+<p><img src="/images/portfolio-setup.png" alt="Hugo Portfolio Setup Architektur"></p>
+<p>Um meine Projekte besser präsentieren zu können, habe ich mich entschieden, eine statische Webseite aufzubauen. Mein Ziel war ein schnelles, sicheres und leicht zu wartendes Setup, das sich nahtlos in meinen bestehenden Workflow integriert.</p>
+<h2 id="der-tech-stack">
+  Der Tech-Stack
+  <a class="heading-link" href="#der-tech-stack">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link zu Überschrift"></i>
+    <span class="sr-only">Link zu Überschrift</span>
+  </a>
+</h2>
+<p>Die Wahl fiel auf <strong>Hugo</strong>, einen extrem schnellen Static Site Generator, geschrieben in Go. Als Theme nutze ich das minimalistische <strong>Coder Theme</strong>.</p>
+<p>Die wichtigsten Komponenten:</p>
+<ul>
+<li><strong>Hugo:</strong> Generiert die statischen HTML-Seiten aus Markdown.</li>
+<li><strong>GitHub Pages:</strong> Übernimmt das kostenlose Hosting.</li>
+<li><strong>GitHub Actions:</strong> Eine CI/CD-Pipeline, die bei jedem Push automatisch die Seite neu baut und veröffentlicht.</li>
+<li><strong>Obsidian:</strong> Mein primärer Editor. Ich schreibe alle Inhalte direkt in meinem lokalen Vault, da das Hugo-Projektverzeichnis vollständig integriert ist.</li>
+</ul>
+<h2 id="der-workflow">
+  Der Workflow
+  <a class="heading-link" href="#der-workflow">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link zu Überschrift"></i>
+    <span class="sr-only">Link zu Überschrift</span>
+  </a>
+</h2>
+<p>Dank der Integration in Obsidian ist das Bloggen und Pflegen der Seite sehr reibungslos:</p>
+<ol>
+<li><strong>Schreiben:</strong> Ich erstelle eine neue Markdown-Datei in Obsidian (<code>site/content/posts/</code>). Dank Obsidian-Templates ist der YAML-Frontmatter sofort korrekt formatiert.</li>
+<li><strong>Vorschau:</strong> Bei Bedarf starte ich lokal <code>hugo server -D</code> und sehe Änderungen in Echtzeit.</li>
+<li><strong>Deploy:</strong> Ein einfaches <code>git push</code> reicht. GitHub Actions übernimmt den Rest. In wenigen Minuten ist der neue Inhalt online.</li>
+</ol>
+<h2 id="architektur-visualisierung">
+  Architektur-Visualisierung
+  <a class="heading-link" href="#architektur-visualisierung">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link zu Überschrift"></i>
+    <span class="sr-only">Link zu Überschrift</span>
+  </a>
+</h2>
+<p>Hier ist eine vereinfachte Darstellung meines Veröffentlichungs-Workflows:</p>
+<div class="mermaid">
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'primaryColor': '#424242',
+    'primaryTextColor': '#dadada',
+    'primaryBorderColor': '#4f4f4f',
+    'lineColor': '#dadada',
+    'secondaryColor': '#212121',
+    'tertiaryColor': '#212121',
+    'nodeBorder': '#dadada',
+    'mainBkg': '#424242',
+    'edgeLabelBackground': '#212121'
+  }
+}}%%
+graph TD
+    A[Obsidian Vault] -->|git push| B(GitHub Repository)
+    B --> C{GitHub Actions}
+    C -->|Build: hugo| D[Public HTML]
+    D --> E((GitHub Pages))
+
+</div>
+
+<h2 id="warum-dieser-setup">
+  Warum dieser Setup?
+  <a class="heading-link" href="#warum-dieser-setup">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link zu Überschrift"></i>
+    <span class="sr-only">Link zu Überschrift</span>
+  </a>
+</h2>
+<p>Es gibt keine Datenbank, keine komplizierten Plugins und keine Sicherheitsprobleme wie bei klassischen CMS (z.B. WordPress). Der gesamte Content ist versioniert, gehört komplett mir (als Markdown-Dateien) und die Auslieferung über GitHub Pages ist global und extrem performant.</p>
+<p><em>Dieses Setup wurde im Rahmen eines initialen Projekts vollständig dokumentiert und automatisiert.</em></p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2026
+     Philipp Schmusch 
+    ·
+    
+    Gestaltet mit <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@9.3.0/dist/mermaid.min.js"
+    integrity="sha256-QdTG1YTLLTwD3b95jLqFxpQX9uYuJMNAtVZgwKX4oYU=" crossorigin="anonymous"></script>
+  <script>
+    mermaid.initialize({startOnLoad: true});
+  </script>
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

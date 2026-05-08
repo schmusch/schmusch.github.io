@@ -1,5 +1,5 @@
 baseURL = 'https://schmusch.github.io/'
-title = 'Philipp Schmusch'
+title = 'Schmusch'
 theme = 'hugo-coder'
 locale = 'de'
 defaultContentLanguage = 'de'
@@ -10,23 +10,17 @@ author = "Philipp Schmusch"
 description = "Persönliches Portfolio und Blog von Philipp Schmusch"
 keywords = "portfolio,blog,hugo,it-operations,digitalisierung"
 info = ["IT Operations", "Digitalisierung", "Project Management"]
-avatarURL = "images/avatar.jpg"
+avatarURL = "images/me-astronaut.jpg"
 dateFormat = "2. Januar 2006"
 since = 2026
 colorScheme = "dark"
 hideColorSchemeToggle = true
 
 [[params.social]]
-name = "Github"
-icon = "fa-brands fa-github fa-2x"
-weight = 1
-url = "https://github.com/schmusch/"
-
-[[params.social]]
 name = "LinkedIn"
 icon = "fa-brands fa-linkedin fa-2x"
 weight = 2
-url = "https://www.linkedin.com/in/philippschmusch/"
+url = "https://www.linkedin.com/in/schmusch/"
 
 [languages.de]
 label = "Deutsch"

@@ -38,6 +38,6 @@ Wenn ich nicht am Rechner sitze, bin ich meistens auf dem Fußballplatz zu finde
 
 Ich tausche mich gerne über IT-Strategien, Automatisierung und moderne Führung aus.
 
-*   <i class="fa-brands fa-linkedin" aria-hidden="true"></i> **LinkedIn:** [linkedin.com/in/schmusch](https://linkedin.com/in/schmusch)
-*   <i class="fa-brands fa-github" aria-hidden="true"></i> **GitHub:** [github.com/schmusch](https://github.com/schmusch)
-*   <i class="fa-solid fa-envelope" aria-hidden="true"></i> **E-Mail:** [philipp.schmusch@gmail.com](mailto:philipp.schmusch@gmail.com)
+- <i class="fa-brands fa-linkedin" aria-hidden="true"></i> [linkedin.com/in/schmusch](https://linkedin.com/in/schmusch)
+- <i class="fa-brands fa-github" aria-hidden="true"></i> [github.com/schmusch](https://github.com/schmusch)
+- <i class="fa-solid fa-envelope" aria-hidden="true"></i> [philipp.schmusch@gmail.com](mailto:philipp.schmusch@gmail.com)
