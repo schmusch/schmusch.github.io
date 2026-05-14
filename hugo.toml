@@ -15,6 +15,7 @@ dateFormat = "2. Januar 2006"
 since = 2026
 colorScheme = "dark"
 hideColorSchemeToggle = true
+customSCSS = ["scss/custom.scss"]
 
 [[params.social]]
 name = "LinkedIn"

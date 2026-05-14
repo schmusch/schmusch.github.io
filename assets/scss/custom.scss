@@ -1,0 +1,17 @@
+// GoAT diagrams: a custom render hook injects explicit width/height into the
+// SVG so it renders at its natural viewBox size. CSS just keeps it responsive
+// (shrinks on narrow viewports, preserves aspect ratio).
+.goat.svg-container {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.goat.svg-container svg {
+  max-width: 100%;
+  height: auto;
+}
+
+// 16px (body 1em) overlaps Menlo on the 8px GoAT grid; 13px fits cleanly.
+.goat svg text {
+  font-size: 13px !important;
+}
