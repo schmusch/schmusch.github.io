@@ -10,8 +10,8 @@ tags:
   - static-site-generator
 categories:
   - Tooling
-premise: "Ein wartungsarmes Portfolio-Setup durch die Integration von Obsidian, Hugo und GitHub Actions."
-angle: "Efficiency"
+premise: Ein wartungsarmes Portfolio-Setup durch die Integration von Obsidian, Hugo und GitHub Actions.
+angle: Efficiency
 ---
 ![Hugo Portfolio Setup Architektur](/images/portfolio-setup.png)
 
