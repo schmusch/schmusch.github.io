@@ -15,8 +15,9 @@ angle: Efficiency
 ---
 ![Hugo Portfolio Setup Architektur](/images/portfolio-setup.png)
 
-Mein Portfolio nutzt einen git-basierten Workflow. Er verbindet Obsidian als Headless-CMS mit Hugo und GitHub Pages zu einer statischen Seite, die ihre Inhalte direkt aus meinem Knowledge-Management-System bezieht.
-
+{{< notice info "Zusammenfassung" >}}
+Ein wartungsarmes Portfolio-Setup durch die Integration von Obsidian, Hugo und GitHub Actions. Die Content-Erstellung erfolgt lokal in Obsidian, während GitHub Actions die Seite bei jedem Push automatisch auf GitHub Pages deployt.
+{{< /notice >}}
 ## Der Tech-Stack
 
 Das Setup nutzt vier Kernkomponenten. [Hugo](https://gohugo.io) kompiliert die Markdown-Dateien in statisches HTML, während GitHub Pages die generierten Assets hostet. GitHub Actions baut das Projekt automatisch bei jedem Push auf den `main`-Branch. [Obsidian](https://obsidian.md) dient als lokaler Editor, da das Hugo-Repository direkt im Obsidian-Vault liegt.
