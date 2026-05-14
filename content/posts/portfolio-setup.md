@@ -1,8 +1,14 @@
 ---
 title: "Mein neues Portfolio: Setup mit Hugo und GitHub Pages"
 date: 2026-05-02
-draft: false
-tags: ["hugo", "github-pages", "obsidian", "ci-cd"]
+draft: true
+tags:
+  - hugo
+  - github-pages
+  - obsidian
+  - ci-cd
+categories:
+  - Tooling
 ---
 
 # Eine neue Portfolioseite
