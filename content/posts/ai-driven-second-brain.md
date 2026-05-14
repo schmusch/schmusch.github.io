@@ -13,9 +13,9 @@ categories:
 
 ![Hero Image](/images/posts/ai-driven-second-brain-hero.jpg)
 
-{{< notice info "Zusammenfassung" >}}
-Ich zeige, wie ich meinen Obsidian Vault in ein KI-natives Wissenssystem umgebaut habe. Kernstücke sind die Obsidian CLI für Datensicherheit und ein proaktives Protokoll zur automatischen Vernetzung von Informationen.
-{{< /notice >}}
+> **Zusammenfassung**
+>
+> Ich zeige, wie ich meinen Obsidian Vault in ein KI-natives Wissenssystem umgebaut habe. Kernstücke sind die Obsidian CLI für Datensicherheit und ein proaktives Protokoll zur automatischen Vernetzung von Informationen.
 
 ## Warum KIs ein Langzeitgedächtnis brauchen
 
@@ -163,6 +163,6 @@ Aus diesen Treffern baut der "Vault Curator"-Skill einen Diagnosebericht mit fer
 
 Dieses Setup spart mir täglich Zeit. Der Vault ist keine statische Ablage mehr, sondern ein dynamisches System, das mitdenkt.
 
-{{< notice tip "Framework auf GitHub" >}}
-Das komplette Framework mit GEMINI.md und allen Skills liegt öffentlich auf GitHub: **[github.com/schmusch/ai-driven-second-brain](https://github.com/schmusch/ai-driven-second-brain)**. MIT-Lizenz, klonen und anpassen erlaubt.
-{{< /notice >}}
+> **Framework auf GitHub**
+>
+> Das komplette Framework mit GEMINI.md und allen Skills liegt öffentlich auf GitHub: **[github.com/schmusch/ai-driven-second-brain](https://github.com/schmusch/ai-driven-second-brain)**. MIT-Lizenz, klonen und anpassen erlaubt.
