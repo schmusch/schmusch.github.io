@@ -53,8 +53,6 @@ Das PARA-System (Projects, Areas, Resources, Archives) ordnet Informationen für
    |           |
    |           +-- defuddle/
    |           |
-   |           +-- hugo-portfolio/
-   |           |
    |           +-- json-canvas/
    |           |
    |           +-- obsidian-bases/
@@ -62,8 +60,6 @@ Das PARA-System (Projects, Areas, Resources, Archives) ordnet Informationen für
    |           +-- obsidian-cli/
    |           |
    |           +-- obsidian-markdown/
-   |           |
-   |           +-- technical-writer/
    |           |
    |           +-- vault-curator/
    |
