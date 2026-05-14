@@ -105,16 +105,4 @@ jobs:
         uses: actions/deploy-pages@v5
 ```
 
-Dieses Setup garantiert volle Datenkontrolle. Der Content liegt lokal als Markdown vor, die Auslieferung skaliert über das GitHub CDN..
-
-<!-- TEMP: Überarbeitungs-Tasks (wird im Cleanup-Schritt entfernt) -->
-## Überarbeitungs-Tasks (temporär)
-
-- [x] Mermaid-Diagramm durch GoAT ersetzen
-- [x] Artikel inhaltlich prüfen (Tech-Stack aktuell? obsidian-cli, custom.scss, GoAT-Workflow ergänzen?)
-- [x] ``technical-writer``-Skill anwenden
-- [x] ``humanizer``-Skill anwenden (Pflicht laut CLAUDE.md §3.4)
-- [ ] Cleanup (diese Tasklist + interne Notizen entfernen)
-- [ ] ``draft: false`` setzen (date bleibt 2026-05-02)
-- [ ] ``git push origin main``
-- [ ] Hub-Log-Eintrag in [[00_Portfolio Hugo Site Hub]]
+Dieses Setup garantiert volle Datenkontrolle. Der Content liegt lokal als Markdown vor, die Auslieferung skaliert über das GitHub CDN.
