@@ -163,7 +163,6 @@ Aus diesen Treffern baut der "Vault Curator"-Skill einen Diagnosebericht mit fer
 
 Dieses Setup spart mir täglich Zeit. Der Vault ist keine statische Ablage mehr, sondern ein dynamisches System, das mitdenkt.
 
-> **Framework auf GitHub**
->
-> Das komplette Framework mit GEMINI.md und allen Skills liegt öffentlich auf GitHub: **[github.com/schmusch/ai-driven-second-brain](https://github.com/schmusch/ai-driven-second-brain)**. MIT-Lizenz, klonen und anpassen erlaubt.
-}
+{{< notice tip "Framework auf GitHub" >}}
+Das komplette Framework mit GEMINI.md und allen Skills liegt öffentlich auf GitHub: **[github.com/schmusch/ai-driven-second-brain](https://github.com/schmusch/ai-driven-second-brain)**. MIT-Lizenz, klonen und anpassen erlaubt.
+{{< /notice >}}
